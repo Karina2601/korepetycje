@@ -1,0 +1,34 @@
+section {
+    height: 500px;
+}
+.sekcja {
+
+    background-color: aqua;
+    color: azure;
+}
+nav {
+    height: auto;
+    float: right;
+    margin: 30px;
+
+}
+header {
+    background-color: azure;
+
+
+}
+
+li {
+    display: inline;
+    margin: 25px;
+    color: blue;
+
+}
+
+.clear {
+    clear: both;
+}
+footer {
+    height: 500px;
+    background-color: #ff221f
+}
