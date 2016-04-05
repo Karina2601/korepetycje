@@ -1,0 +1,91 @@
+/*body {*/
+    /*margin-top: 80px;*/
+/*}*/
+
+.content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.sekcja {
+    background-color: beige;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.sekcja.funkcje {
+    background-color:darkred;
+}
+
+.sekcja.zabytki {
+    background-color:aquamarine;
+}
+
+.sekcja.contact {
+    background-color:chartreuse;
+    height: 800px;
+}
+
+
+.sekcja .tytul-sekcji {
+    font-size:24px;
+    display: block;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.funkcja {
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    float: left;
+}
+
+.zabytek {
+    height:200px;
+    width: 300px;
+    display:inline-block;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.funkcja-1 {
+    background-color: #a0a0a0;
+}
+.funkcja-2 {
+    background-color: #c5c5c5;
+}
+.funkcja-3 {
+    background-color: #FAFAFA;
+}
+
+.zabytek-1 {
+    background-color: #0F0F0F
+}
+.zabytek-2 {
+    background-color: #2F2F2F
+}
+.zabytek-3 {
+    background-color: #4F4F4F
+}
+.zabytek-4 {
+    background-color: #6F6F6F
+}
+.zabytek-5 {
+    background-color: #8F8F8F
+}
+.zabytek-6 {
+    background-color: #aFaFaF
+}
+.zabytek-7 {
+    background-color: #cFcFcF
+}
+.zabytek-8 {
+    background-color: #eFeFeF
+}

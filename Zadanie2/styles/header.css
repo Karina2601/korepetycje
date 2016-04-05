@@ -1,0 +1,17 @@
+.naglowek {
+    background-color: aqua;
+    /*position: fixed;*/
+    width: 100%;
+    /*z-index: 10;*/
+    /*top: 0;*/
+}
+
+nav {
+    float: right;
+    margin: 32px 15px 32px 15px;
+}
+
+li {
+    display: inline;
+    margin: 25px;
+}
