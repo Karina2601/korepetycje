@@ -1,9 +1,11 @@
 section {
     height: 500px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 .sekcja {
 
-    background-color:white;
+    background-color:lavenderblush;
     color:lightgreen;
 }
 nav {
@@ -13,16 +15,17 @@ nav {
 
 }
 header {
-    background-color: #FAFAFA;
+    background-color: lavenderblush;
+    margin-left: 150px;
+    margin-right: 150px;
 
 
 }
 
 li {
     display: inline;
-    margin: 120px;
+    margin: 80px;
     color: blue;
-
 }
 
 .clear {
@@ -30,43 +33,75 @@ li {
 }
 footer {
     height: 300px;
-    background-color:mistyrose;
+    background-color:lavender;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .content {
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .menu-obrazek {
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     background-color:royalblue;
     display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 100px;
 }
 .obraz-dania-glowne {
     background-image: url("images/img_1620.jpg");
+    background-position: center;
 }
 .obraz-desery {
     background-image:url("images/img_1621.jpg") ;
+    background-position: center;
+
 }
 
 .obraz-napoje {
     background-image: url("images/img_1624.jpg");
+    background-position: center;
+
+
 }
 #onas h1{
-    background-color: purple;
-
-
+    background-color: lavenderblush;
 }
 
-#onas p{
-    background-color: yellow;
-
+#onas {
+    background-color: lavender;
 }
+
 #zajawka {
     background-image: url("images/img_1619.jpg");
     display: block;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
+
+#Rezerwacje {
+    background-color: lavenderblush;
+}
+
+p {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "American Typewriter";
+    font-style: italic;
+    font-stretch: expanded;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 15px;
+}
+
+ul {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
 
