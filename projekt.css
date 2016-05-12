@@ -18,13 +18,18 @@ header {
     background-color: lavenderblush;
     margin-left: 150px;
     margin-right: 150px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+
 
 
 }
 
 li {
     display: inline;
-    margin: 80px;
+    margin: 59px;
     color: blue;
 }
 
@@ -36,11 +41,12 @@ footer {
     background-color:lavender;
     margin-left: 150px;
     margin-right: 150px;
+
 }
 .content {
     width: 800px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .menu-obrazek {
     width: 250px;
@@ -51,19 +57,25 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 100px;
+    box-shadow: 0px 0px 5px 10px pink;
+
+
+
 }
 .obraz-dania-glowne {
-    background-image: url("images/img_1620.jpg");
-    background-position: center;
+    background-image: url("images/IMG_1620.JPG");
+    float: left;
+
 }
 .obraz-desery {
-    background-image:url("images/img_1621.jpg") ;
+    background-image:url("images/IMG_1621.JPG") ;
     background-position: center;
+
 
 }
 
 .obraz-napoje {
-    background-image: url("images/img_1624.jpg");
+    background-image: url("images/IMG_1624.JPG");
     background-position: center;
 
 
@@ -77,31 +89,42 @@ footer {
 }
 
 #zajawka {
-    background-image: url("images/img_1619.jpg");
+    background-image: url("images/IMG_1619.JPG");
     display: block;
     background-repeat: no-repeat;
     background-position: center;
+
     
 }
 
-#Rezerwacje {
+.rezerwacje {
     background-color: lavenderblush;
+    display: block;
+
+
 }
 
 p {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: lighter;
-    font-family: "American Typewriter";
+    font-family: "Century Schoolbook L";
     font-style: italic;
     font-stretch: expanded;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 500px;
     margin-top: 15px;
+    text-shadow: 0px 0px 10px black
 }
 
 ul {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+main {
+    padding-top: 76px;
+}
+
+
 
 
