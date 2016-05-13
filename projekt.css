@@ -1,11 +1,13 @@
 section {
     height: 500px;
-    margin-right: 150px;
-    margin-left: 150px;
+    /*margin-right: 150px;*/
+    /*margin-left: 150px;*/
+    position: relative;
+    width: auto;
 }
 .sekcja {
 
-    background-color:lavenderblush;
+    background-color:white;
     color:lightgreen;
 }
 nav {
@@ -15,24 +17,26 @@ nav {
 
 }
 header {
-    background-color: lavenderblush;
-    margin-left: 150px;
-    margin-right: 150px;
+    background-color: white;
+    /*margin-left: 150px;*/
+    /*margin-right: 150px;*/
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     right:0;
-    text-shadow: 0px 0px 10px black
-
-
-
+    text-shadow: 0px 0px 10px black;
+    z-index: 100;
 
 }
 
 li {
     display: inline;
-    margin: 59px;
+    margin: 84px;
     color: black;
+    font-weight: lighter;
+    font-family: "Century Schoolbook L";
+    font-style: italic;
+    font-stretch: expanded;
 }
 
 .clear {
@@ -40,26 +44,28 @@ li {
 }
 footer {
     height: 300px;
-    background-color:lavenderblush;
-    margin-left: 150px;
-    margin-right: 150px;
+    background-color:white;
+    /*margin-left: 150px;*/
+    /*margin-right: 150px;*/
+    width: auto;
 
 }
 .content {
     width: 800px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .menu-obrazek {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
-    background-color:royalblue;
+    background-color:white;
     display: inline-block;
-    margin-left: 5px;
+    margin-left:5px;
     margin-right: 5px;
     margin-top: 100px;
     box-shadow: 0px 0px 5px 10px pink;
+
 
 
 
@@ -67,11 +73,15 @@ footer {
 .obraz-dania-glowne {
     background-image: url("images/IMG_1620.JPG");
     float: left;
+    margin-right: 85px;
+    background-position: center;
+
 
 }
 .obraz-desery {
     background-image:url("images/IMG_1621.JPG") ;
     background-position: center;
+    margin-right: 85px;
 
 
 }
@@ -79,15 +89,16 @@ footer {
 .obraz-napoje {
     background-image: url("images/IMG_1624.JPG");
     background-position: center;
+    float: right;
 
 
 }
 #onas h1{
-    background-color: lavenderblush;
+    background-color: white;
 }
 
 #onas {
-    background-color: lavenderblush;
+    background-color: white;
 }
 
 #zajawka {
@@ -95,12 +106,13 @@ footer {
     display: block;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: white;
 
     
 }
 
 .rezerwacje {
-    background-color: lavenderblush;
+    background-color: white;
     display: block;
 
 
@@ -113,9 +125,11 @@ p {
     font-style: italic;
     font-stretch: expanded;
     margin-left: 200px;
-    margin-right: 500px;
+    margin-right: 600px;
     margin-top: 15px;
-    text-shadow: 0px 0px 10px black
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+
 }
 
 ul {
