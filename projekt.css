@@ -24,15 +24,14 @@ header {
     top: 0;
     left: 0;
     right:0;
-    text-shadow: 0px 0px 10px black;
     z-index: 100;
 
 }
 
 li {
     display: inline;
-    margin: 84px;
-    color: black;
+    margin: 72px;
+    color: purple;
     font-weight: lighter;
     font-family: "Century Schoolbook L";
     font-style: italic;
@@ -69,19 +68,23 @@ footer {
 
 
 
+
+
 }
 .obraz-dania-glowne {
     background-image: url("images/IMG_1620.JPG");
     float: left;
     margin-right: 85px;
     background-position: center;
+   
 
 
 }
 .obraz-desery {
     background-image:url("images/IMG_1621.JPG") ;
     background-position: center;
-    margin-right: 85px;
+
+
 
 
 }
@@ -90,6 +93,7 @@ footer {
     background-image: url("images/IMG_1624.JPG");
     background-position: center;
     float: right;
+
 
 
 }
@@ -124,7 +128,7 @@ p {
     font-family: "Century Schoolbook L";
     font-style: italic;
     font-stretch: expanded;
-    margin-left: 200px;
+    margin-left: -74px;
     margin-right: 600px;
     margin-top: 15px;
     text-shadow: 0px 0px 10px black;
@@ -140,7 +144,6 @@ ul {
 main {
     padding-top: 76px;
 }
-
 
 
 
